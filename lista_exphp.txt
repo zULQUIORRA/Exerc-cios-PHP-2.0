@@ -1,0 +1,92 @@
+<?php
+echo "exercício 5";
+
+$num = 5;
+$numAntecessor = $num - 1;
+
+echo "<br>O antecessor de $num é $numAntecessor";
+
+echo"<br><br>exercício 14";
+
+$numMaior = 11;
+$numMenor = 5;
+
+echo"<br>$numMaior é maior que 10";
+echo"<br>$numMenor é menor que 10";
+
+echo"<br><br>exercício 6";
+
+$base = 6;
+$altura = 12;
+$dimensao;
+
+$dimensao = $base * $altura;
+
+echo"<br>As dimensões de um retângulo de base $base e altura $altura é $dimensao";
+
+echo"<br><br>exercício 9";
+
+$salmin = 1100;
+$reajuste = 10;
+$salatual;
+
+$salatual = (($reajuste + 100) / 100) * $salmin;
+
+echo"<br>O salário atual de um trabalhador é de $salmin, com o reajuste de 10% foi para $salatual";
+
+echo"<br><br>exercício 15";
+
+$numpos = 10;
+$numneg = -5;
+
+echo"<br>O número $numpos é positivo";
+echo"<br>O número $numneg é negativo";
+
+echo"<br><br>exercício 16";
+
+$macaA = 1.30;
+$macaB = 1.00;
+
+$menosduzia = $macaA * 6;
+$duzia = $macaB * 12;
+
+$total = $menosduzia + $duzia;
+
+echo"<br>O total da compra foi de $$total";
+
+echo"<br><br>exercício 20";
+
+$num = 6;
+$numcresc = $num + 1;
+
+echo"<br>$num, $numcresc";
+
+echo"<br><br>exercício 27";
+
+$numpos = 5;
+$numneg = -5;
+
+echo"<br>O número $numpos é positivo";
+echo"<br>O número $numneg é negativo";
+echo"<br>O número 0 é positivo";
+
+echo"<br><br>exercício 48";
+
+$n1 = 7;
+$n2 = 8;
+
+$media = $n1 + $n2 / 2;
+
+echo"<br>A média desse aluno é de $media";
+echo"<br>Aprovado!";
+
+echo"<br><br>exercício 44";
+
+$n1 = 10;
+$n2 = 0;
+
+while ($n2 == 0){
+$n2 = 2;
+echo"<br>$n1, $n2";
+}
+?>
